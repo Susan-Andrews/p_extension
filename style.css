@@ -3,50 +3,26 @@
 
 body {
     height: 100vh;
-    
-    margin: 0;
-    /* background-image: url(src/img/car.jpg);
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;  */
     background: #05231a;
 }
-#landing-page{
+
+#landing-page {
     padding-top: 20%;
     padding-bottom: 10%;
-    display:block;
-    align-items: center;
-    justify-content: center;
-}
-h1{
-    font-size:100px;
-    color:#fff;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-h3{
-    color:#fff;
-    
-}
-#landing-page {
-    text-align: center;
 }
 
-.d-flex.flex-column {
-    align-items: center;
+h1 {
+    font-size: 100px;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.d-flex.flex-row {
-    margin-top: 20px; /* Adjust as needed */
+h3 {
+    color: #fff;
+
 }
 
-/* Additional styles for buttons */
-.btn.site-btn1 {
-   margin-right: 20px;
-}
-/* input[type="button"] {
-    width: 150px;
-} */
-
+/* button:uiverse.io */
 button {
     font-size: 18px;
     color: #e1e1e1;
@@ -61,20 +37,20 @@ button {
     transition-duration: 400ms;
     transition-property: color;
     padding: 20px;
-  }
-  
-  button:focus,
-  button:hover {
+}
+
+button:focus,
+button:hover {
     color: #fff;
-  }
-  
-  button:focus:after,
-  button:hover:after {
+}
+
+button:focus:after,
+button:hover:after {
     width: 100%;
     left: 0%;
-  }
-  
-  button:after {
+}
+
+button:after {
     content: "";
     pointer-events: none;
     bottom: -2px;
@@ -86,9 +62,9 @@ button {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;
-  }
+}
 
-  .Btn {
+.Btn {
     border: none;
     border-radius: 50%;
     width: 45px;
@@ -101,53 +77,42 @@ button {
     position: relative;
     background-color: rgb(31, 31, 31);
     overflow: hidden;
-  }
-  
-  .svgIcon {
+}
+
+.svgIcon {
     transition-duration: .3s;
-  }
-  
-  .svgIcon path {
+}
+
+.svgIcon path {
     fill: white;
-  }
-  
-  .text {
+}
+
+.text {
     position: absolute;
     color: rgb(255, 255, 255);
     width: 120px;
     font-weight: 600;
     opacity: 0;
     transition-duration: .4s;
-  }
-  
-  .Btn:hover {
+}
+
+.Btn:hover {
     width: 110px;
     transition-duration: .4s;
     border-radius: 30px;
-  }
-  
-  .Btn:hover .text {
+}
+
+.Btn:hover .text {
     opacity: 1;
     transition-duration: .4s;
-  }
-  
-  .Btn:hover .svgIcon {
+}
+
+.Btn:hover .svgIcon {
     opacity: 0;
     transition-duration: .3s;
-  }
-
-   #socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-   
-  /* contact section  */
-   
-   #icons .fa{
+}
+#icons .fa {
     padding-right: 15px;
     color: #fff;
     margin: 0;
-  
-    /* text-decoration: none; */
 }
