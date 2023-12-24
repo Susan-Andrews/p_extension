@@ -2,13 +2,13 @@
 
 
 body {
-    height: 100vh;
+    height: 90vh;
     background: #05231a;
 }
 
 #landing-page {
-    padding-top: 20%;
-    padding-bottom: 10%;
+    padding-top: 18%;
+
 }
 
 h1 {
@@ -37,6 +37,8 @@ button {
     transition-duration: 400ms;
     transition-property: color;
     padding: 20px;
+    /* width: 90px; */
+    /* height: 120px; */
 }
 
 button:focus,
@@ -64,55 +66,36 @@ button:after {
     transition-property: width, left;
 }
 
-.Btn {
-    border: none;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: .4s;
-    cursor: pointer;
-    position: relative;
-    background-color: rgb(31, 31, 31);
-    overflow: hidden;
-}
-
-.svgIcon {
-    transition-duration: .3s;
-}
-
-.svgIcon path {
-    fill: white;
-}
-
-.text {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    width: 120px;
-    font-weight: 600;
-    opacity: 0;
-    transition-duration: .4s;
-}
-
-.Btn:hover {
-    width: 110px;
-    transition-duration: .4s;
-    border-radius: 30px;
-}
-
-.Btn:hover .text {
-    opacity: 1;
-    transition-duration: .4s;
-}
-
-.Btn:hover .svgIcon {
-    opacity: 0;
-    transition-duration: .3s;
-}
+/* contact icons */
 #icons .fa {
     padding-right: 15px;
     color: #fff;
     margin: 0;
+
+}
+
+/* media queries */
+
+@media (max-width: 633px) {
+    h1 {
+
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    #landing-page {
+        padding-top: 45%;
+
+    }
+
+}
+
+
+@media (max-width:360px) {
+    h3 {
+        font-size: 15px;
+    }
 }
