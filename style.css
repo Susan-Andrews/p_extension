@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-
 body {
     height: 90vh;
     background: #05231a;
@@ -13,6 +12,7 @@ body {
 
 h1 {
     font-size: 100px;
+    padding: 15px;
     color: #fff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -90,6 +90,9 @@ button:after {
         padding-top: 45%;
 
     }
+    #socials{
+        padding-top: 18px;
+    }
 
 }
 
@@ -97,5 +100,8 @@ button:after {
 @media (max-width:360px) {
     h3 {
         font-size: 15px;
+    }
+    #socials{
+        padding-top: 18px;
     }
 }
