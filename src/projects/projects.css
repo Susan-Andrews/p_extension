@@ -9,17 +9,17 @@ section{
 }
 
 #s1{
-    background-image: url(/src/img/gra.jpg);
+    background-image: url(/src/img/abstract.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
+
+    /* position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-  
-}
+    align-items: center; */
+    min-height: 100vh; 
+    }
 h1{
     font-size: 100px;
     color: #ffffff;
@@ -65,10 +65,13 @@ h1{
 @media (max-width: 480px) {
     h1 {
         margin-top: 95%;
+        
     }
+   
 }
 @media (max-width: 480px) and (min-width: 300px) {
-    h1{padding-top: 230px;
+    h1{padding-top: 270px;
     }
+  
 
 }
