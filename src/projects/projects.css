@@ -39,9 +39,7 @@ h1{
     opacity: .4;
     position: absolute;
 }
-#s2{
-    background: #05231a;
-}
+
 
 
 @media (max-width: 1270px) {
@@ -74,4 +72,21 @@ h1{
     }
   
 
+}
+#s2{
+    background: #05231a;
+    color: #EEF5FF;
+    
+}
+#s2 a{
+    text-decoration: none;
+    color: #EEF5FF;
+}
+#desc{
+    padding:40px;
+    font-weight: normal;
+}
+#intro ,#tech ,#end{
+    font-size: 22px;
+    
 }
